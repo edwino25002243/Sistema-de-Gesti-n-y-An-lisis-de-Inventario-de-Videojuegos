@@ -1,9 +1,7 @@
-// ==========================================
 // PROYECTO: Sistema de Gestión y Análisis de Inventario de Videojuegos
-// ==========================================
-// ==========================================
+
+
 // 1. CREAR MATRICES - INVENTARIO INICIAL
-// ==========================================
 
 // 1.a.i. Matriz con 5 nombres de videojuegos (Array de Strings)
 // Usamos corchetes [] que es la forma más común (Notación Literal).
@@ -355,3 +353,4 @@ console.log(`Total global: Q${totalGlobal}`);
 // Para mostrar el Top 3 solo por nombre, usamos map y join para que se vea limpio
 const nombresTop3 = top3Vendidos.map(juego => juego.titulo).join(", ");
 console.log(`Top 3: ${nombresTop3}`);
+
